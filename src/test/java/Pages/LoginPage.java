@@ -12,7 +12,7 @@ public class LoginPage extends BasePage {
     @FindBy (xpath = "//input[@name='pass']")
     private WebElement inputPassword;
 
-    @FindBy (xpath = "//input[@title='Вход на почту']")
+    @FindBy (xpath = "//input[contains(@tabindex,'5')]")
     private WebElement btnLogin;
 
 
